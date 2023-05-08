@@ -145,7 +145,11 @@ function App() {
         AC
       </button>
       <button onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}>
-        DEL
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/email-and-messages-1/32/86-01-512.png"
+          srcSet="https://cdn4.iconfinder.com/data/icons/email-and-messages-1/32/86-01-1024.png 2x"
+          alt="backspace"
+        />
       </button>
       <OperationButtons operation="÷" dispatch={dispatch} />
       <DigitButtons digit="1" dispatch={dispatch} />
